@@ -1,0 +1,56 @@
+.card {
+  border: 1px solid #dde3ec;
+  border-radius: 6px;
+  box-shadow: none;
+  display: flex;
+  margin-bottom: 30px;
+  min-height: 228px;
+  padding: 14px 10px;
+}
+
+.left {
+  position: relative;
+}
+
+.left img.logo {
+  margin: 3px auto 7px;
+  width: 121px;
+}
+
+.left img {
+  display: block;
+  width: 140px;
+}
+
+.left .arrow {
+  display: block;
+  position: absolute;
+  right: -34px;
+  top: 33px;
+  width: 50px;
+}
+
+.right {
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.right strong {
+  color: #404040;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 14px;
+  padding-top: 66px;
+  text-align: center;
+}
+
+.right span {
+  color: #737373;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
